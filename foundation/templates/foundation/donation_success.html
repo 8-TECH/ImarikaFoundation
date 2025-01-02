@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Successful</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/donation_success.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Thank you for your donation!</h2>
+        <p>Your donation helps us achieve our mission to empower communities.</p>
+        <a href="/" class="btn">Return to Homepage</a> <!-- Button to go back to homepage -->
+    </div>
+</body>
+</html>
+{% endblock content %}
+
